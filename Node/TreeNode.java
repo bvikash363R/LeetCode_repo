@@ -14,4 +14,13 @@ public class TreeNode {
     public int get() {
         return data;
     }
+
+    public static void preorder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.data + " ");
+        preorder(root.left);
+        preorder(root.right);
+    }
 }
