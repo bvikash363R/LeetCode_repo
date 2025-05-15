@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/
+
 import java.util.ArrayList;
 import java.util.List;
 
